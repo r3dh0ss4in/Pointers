@@ -2,7 +2,7 @@
 using namespace std;
 #define endl '\n'
 
-void func(int A[][2][2]) {
+void func(int A[][2][2]) {// (*A)[2][2] also works!
     // Address of A[0][0][0];
     cout << A << endl << *A << endl << &A[0][0] << endl;
     cout << *(A[0][1]) << " " << *(A[0][1]+1) << endl; // 7 9
